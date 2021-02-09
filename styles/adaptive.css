@@ -110,15 +110,15 @@ h2{
     width:80%;
     height: 250px;
 }
-.descrip_btn{
+/* .descrip_btn{
     width: 230px;
-}
-#home_btn{
+} */
+/* #home_btn{
     right: -230px;
 }
 #phone_btn{
     right: -230px;
-}
+} */
 .foot_wrap{
     flex-direction: column;
 }
