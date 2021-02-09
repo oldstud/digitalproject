@@ -1,0 +1,131 @@
+
+
+@media screen and (max-width:1150px){
+    nav{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr 1fr;
+        grid-template-areas:
+          "our_services our_services"
+          "graphic_design web_development"
+          "seo mob_dev";
+      }
+      .grid-container div>svg{
+          margin-top: 10px;
+      }
+      .our_services{
+      padding-bottom: 0;
+    }
+    
+
+}
+@media screen and (max-width:900px){
+    #first_slider li>img{
+width:100%;
+height: 100%;
+    }
+}
+
+@media screen and (max-width:830px){
+    .about_us--right>div{
+    
+     margin-left: 30px;
+    }
+    #my-form{
+        padding: 10px;
+        justify-content: center;
+    }
+    .absolute_ico{
+        bottom:710px;
+    }
+    #phone_btn{
+        bottom: 618px;
+    }
+    .arrow_size{
+        width: 25px;
+        height: 27px;
+    }
+    #interface_-_arrow_top_{
+        width: 50px;
+        height: 50px;
+        right: 129px;
+        bottom: 12px;
+}
+}
+@media screen and (max-width:700px){
+nav{
+    flex-direction: column;
+    
+}
+    #nav_items{
+        display: none;
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+@media screen and (max-width:700px){
+    .white_block{
+        width: 250px;
+    }
+    .social_wrap{
+        width:250px;
+    }
+    .social_wrap>svg{
+    
+        margin: 2px;
+    }
+    .social_wrap>a>svg{
+        margin: 2px;
+    }
+
+    .photo_circle{
+        position: absolute;
+        top: -100px;
+      width: 200px;
+      left: 5px;
+    }
+    .splide__track{
+        margin: 0 10px;
+      }
+}
+@media screen and (max-width:500px){
+    h1{
+        font-size: 50px;
+    }
+h2{
+    padding-bottom: 200px;
+}
+#about_us{
+    flex-direction: column;
+    align-items: center;
+}
+.about_us--left{
+    width:80%;
+    height: 250px;
+}
+}
+
+@media screen and (max-width:500px){
+    .descrip_btn{
+        width: 230px;
+    }
+    #home_btn{
+        right: -230px;
+    }
+    #phone_btn{
+        right: -230px;
+    }
+    .foot_wrap{
+        flex-direction: column;
+    }
+    .footer_text{
+        padding-top: 15px;
+    }
+}
