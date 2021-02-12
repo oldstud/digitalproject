@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function handleTabletChangeSmall(e) {
         if (e.matches) {
             if (mediaMobile.matches) {
-                console.log("work")
+
                 navUl.style.display = "none";
             }
         }
@@ -159,6 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
             else if (navUl.style.display !== "none") {
                 navUl.style.display = "none";
             }
+            logoWillBeBtn.classList.toggle('push_logo')
         }
     }
 })

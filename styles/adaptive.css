@@ -32,7 +32,7 @@ height: 100%;
     }
 }
 
-@media screen and (max-width:830px){
+@media screen and (max-width:846px){
     .about_us--right>div{
     
      margin-left: 30px;
@@ -61,6 +61,55 @@ height: 100%;
 }
 }
 @media screen and (max-width:700px){
+    #logo:hover{
+        cursor: pointer;
+       
+
+    }
+    .push_logo{
+        stroke: #333;
+    }
+    #nav_items>li>a{ 
+		list-style: none;
+		color: white;
+		font-family: sans-serif;
+		font-weight: bold;
+		padding: 12px 16px;
+		margin: 0 8px;
+		position: relative;
+		cursor: pointer;
+		white-space: nowrap;
+}
+		#nav_items>li>a::before {
+			content: " ";
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			z-index: -1;
+			-webkit-transition: 0.2s;
+			-o-transition: 0.2s;
+			transition: 0.2s;
+			border-radius: 25px;
+		}
+
+		#nav_items>li>a:hover::before {
+            background: -o-linear-gradient(315deg, #8BC6EC 0%, #9599E2 100%);
+            background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+            opacity: 0.8;
+				-webkit-box-shadow: 0px 3px 20px 0px black;
+				        box-shadow: 0px 3px 20px 0px black;
+				-webkit-transform: scale(1.2);
+				    -ms-transform: scale(1.2);
+				        transform: scale(1.2);
+			    
+		}
+        #nav_items>li>a:hover{
+             color: black;
+        }
+
+
 nav{
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -77,7 +126,13 @@ nav{
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
+padding:20px 0;
     }
+
+    #nav_items>li{
+        margin: 10px;
+    }
+
 }
 
 @media screen and (max-width:700px){
@@ -129,7 +184,7 @@ h2{
     width: 230px;
 } */
 /* #home_btn{
-    right: -230px;
+    right: -230px;  
 }
 #phone_btn{
     right: -230px;
