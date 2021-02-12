@@ -86,6 +86,11 @@ nav{
     font-weight: bold;
     font-family: "ProximaNova";
 }
+#nav_items>li>:hover{
+color: #333;
+text-decoration: underline;
+}
+
 h1{
     font-size: 72px;
     font-family: "ProximaNova";
@@ -655,6 +660,7 @@ color: #000;
 #my-form-button:hover{
 text-decoration: underline;
 }
+
 
 
 
