@@ -43,7 +43,7 @@
     <meta property="og:image" content="https://oldstud.github.io/img/main_photo_winter.JPG" />
 </head>
 
-<body>
+<body id="home">
 
     <header>
         <nav id="nav_block">
@@ -52,7 +52,7 @@
                 <use xlink:href="images/global_sprite.svg#logo"></use>
             </svg>
             <ul id="nav_items">
-                <li> <a href="#">HOME</a></li>
+                <li> <a href="#home">HOME</a></li>
                 <li><a href="#about_us">ABOUT</a></li>
                 <li> <a href="#services">SERVICES</a></li>
                 <li><a href="#recent_works">WORKS</a></li>
@@ -392,7 +392,7 @@
                     </div>
 
                 </div>
-                <a href="#" id="interface_-_arrow_top_" class="absolute_ico">
+                <a href="#home" id="interface_-_arrow_top_" class="absolute_ico">
                     <svg class="arrow_size">
                         <use xlink:href="images/global_sprite.svg#interface_-_arrow_top_"></use>
                     </svg>
@@ -459,8 +459,15 @@
 
         function initMap() {
             const mapOptions = {
-                center: { lat: -7.9490732, lng: 112.6279572 },
-                zoom: 15,
+                center: { lat: -7.9379571, lng: 112.6279572 },
+                zoom: 14,
+
+
+
+
+
+
+
             };
 
             map = new google.maps.Map(document.getElementById("map"), mapOptions);
@@ -476,7 +483,9 @@
                 }
 
 
+
             });
+
             // You can use a LatLng literal in place of a google.maps.LatLng object when
             // creating the Marker object. Once the Marker object is instantiated, its
             // position will be available as a google.maps.LatLng object. In this case,
